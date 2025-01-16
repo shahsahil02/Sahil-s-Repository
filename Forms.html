@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Registration Form</h1>
+      <h2>Fill the form with your details</h2>
+
+    <form action="/action_page.php">
+        
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"  placeholder="Your name" required pattern="[a-zA-Z ]"><br><br>
+        <label for="mname">Middle name:</label><br>
+        <input type="text" id="mname" name="mname"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+<label>
+    <br>
+    Course:
+    </label>
+    <select>
+        <option value="none">None</option>
+        <option value="Advance English">Advance English</option>
+        <option value="Full stack Developement">Full stack Developement</option>
+        <option value="MBA">MBA</option>
+        <option value="M.tech">M.tech</option>
+        <option value="MCA">MCA</option>
+        <option value="BCA">BCA</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="MBBS">MBBS</option>
+    </select>
+    <br>
+    <br>
+
+    <h2>your favouraite subject</h2>
+          <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+
+<br>
+<br>
+
+<div>
+    <label>
+    Gender:
+</label> <br>
+<input type="Radio" id="Male" name="Gender" value="Male"/> Male <br>
+<input type ="radio" id="Female" name="Gender" Value="Female"/>Female <br>
+<input type="radio" id="Prefernottosay" name="Gender" value="Prefer not to say"/>Prefer not to say </div>
+<br>
+<br>
+<br>
+
+<div>
+    <label> Phone number:</label>
+    <input type="text" name="country code"  value="+91" size="3"/>   
+    <input type="text" name="phone" size="10"/>  
+</div>
+
+
+<br><br>
+
+<div>
+    <label>Secondary Phone:</label>
+    <input type="text" name="country code"  value="+91" size="3"/>   
+    <input type="text" name="phone" size="10"/> <br> <br>
+    </div>
+
+<label>Address</label>
+    <textarea name="Address" rows="5" cols="40"></textarea> <br> <br>
+
+    <h3>Hobbies</h3>
+    <input type="checkbox" id="Football" name="Sports" value="Football">
+    <label for="Football">Football</label> 
+    <br>
+    <input type="checkbox" id="Foodie" name="Foodie" value="Exploring new Tastes">
+    <label for="Foodie">I like to taste new food</label> 
+    <br>
+    <input type="checkbox" id="Cricket" name="Sports" value="Cricket">
+    <label for="Cricket">Cricket</label> 
+    <br>
+    <input type="checkbox" id="Sportscar" name="Racing" value="Sports car">
+    <label for="Sportscar">Riding sports car</label> 
+    <br>
+    <input type="checkbox" id="Null" name="Empty" value="Football" disabled>
+    <label for="Null">Null</label> 
+    <br>
+    <br>
+    
+    <input type="submit" value="Submit"> <br><br>
+    </form>
+      
+</body>
+</html>
