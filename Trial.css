@@ -1,0 +1,24 @@
+.greeting
+{
+    background-color: #1ECBE1;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.name {
+    background-color: #961EE1;
+    font-size: 20px;
+    color: azure;
+}
+
+div {
+    background-color: #E1341E;
+    font-size: 20px;
+    color: azure;
+}
+
+#content {
+    background-color: #6AE11E;
+    color: black;
+}
