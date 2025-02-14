@@ -1,0 +1,5 @@
+BEM (Block, Element, Modifier) is a structured naming convention.
+Block: Represents a standalone entity, e.g., block.
+Element: Represents a part of the block, e.g., block__element.
+Modifier: Represents a different state or version of a block or element, e.g., block--modifier.
+Example: block__element--modifier clearly defines relationships and states.
