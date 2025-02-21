@@ -1,0 +1,30 @@
+body {
+    background-color:  #878f99;
+}
+
+table {
+    border-color:  #a2b9bc;
+}
+
+#languageandframeworks {
+    background-color: #6b5b95;
+    color: #b2ad7f;
+    font-style: italic;;
+}
+
+.row1 {
+    background-color: #b2ad7f;
+
+    color: #6b5b95;
+
+}
+
+.row2 {
+    background-color: #a2b9bc;
+}
+
+caption 
+{
+    margin-top: 100px;
+    padding: 10px;
+}
